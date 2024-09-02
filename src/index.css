@@ -1,0 +1,284 @@
+.top{
+  height: 700px;
+  width: 100%;
+  /* border: 3px dotted rgb(170, 12, 117); */
+}
+.nav_1{
+  height:inherit;
+  width: 100%;
+  background: url("./assets/img1.jpg") ,  linear-gradient(180deg, rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.37)); 
+  background-image: no-repeat;
+  background-size:cover;
+  background-position: center;
+  /* border:5px double rgb(39, 15, 255) ; */
+  /* overflow: hidden; */
+}
+.navbar{
+  height: 70px;
+  width: 100%;
+display: flex;
+justify-content: space-around;
+
+}
+.navbar nav{
+  width: 700px;
+  /* border: 1px solid; */
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.navbar nav ul{
+
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.navbar nav ul li{
+  margin: 0 20px;
+
+}
+.navbar nav ul li:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.navbar .logo{
+  height: inherit;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.s-hr{
+  color: white;
+}
+.slide{
+height: 200px;
+width: 100%;
+color: aliceblue;
+text-align: center;
+margin-top: 15%;
+/* border: 1px solid red; */
+}
+.slide h6{
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slide h1{
+  font-size: 100px;
+  font-weight: 100;
+  margin-top: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section_1{
+  height: 230vh;
+  width: 100%;
+  /* border: 5px solid green; */
+}
+.container{
+  height: 500px;
+  width: 90%;
+  display: flex;
+ margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 3px double green; */
+}
+.container .about-1{
+  height: inherit;
+  width: 40%;
+  /* border: 1px solid; */
+  padding: 30px;
+}
+.container .about-2{
+  height: inherit;
+  width: 40%;
+  /* border: 1px solid; */
+  padding: 0px;
+
+}
+.about-2 #ab-pic{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.about-1 h2{
+  font-family:  cursive;
+  font-size: 50px;
+  /* display: block; */
+  font-weight: 100;
+  line-height: 1;
+  text-align: left;
+
+  /* margin-bottom: 12px; */
+
+}
+.about-1 p{
+  font-family: "Jost";
+
+  font-size: 18px;
+  text-align: left;
+  font-weight:400 ;
+  line-height: 1.5;
+}
+.about-1 img{
+  object-fit: contain;
+margin-left:-80%;
+margin-top: 5%;
+}
+.about-1 .experience{
+  margin-top: 20px;
+}
+.about-1 .experience img{
+/* border:1px solid ; */
+margin-left: -200px;
+}
+.about-1  button{
+  border: 1px solid;
+  height: 50px;
+  width: 150px;
+  background-color: white;
+   /* padding: 14px 37px; */
+font-size: 14px;
+font-weight: 400;
+margin-right: 250px;
+margin-top: 20px;
+transition: all .3s ease-out 0s;
+}
+.about-1 button:hover{
+  background-color: black;
+  border: none;
+  color: white;
+}
+.about-1.section-tittle p{
+  font-size: 40px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.gallery_section{
+  height: auto;
+  width: 90%;
+  /* border: 2px double red; */
+}
+.gallery_section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_wrapper {
+ background-color: rgb(30,30,30);
+}
+
+.footer_wrapper h5 {
+  color: rgb(241,255,255);
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer_wrapper ul li {
+  margin-bottom: .5rem;
+  list-style: none;
+}
+
+.footer_wrapper .company_details {
+  
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 30px;
+}
+
+
+
+.footer_wrapper .link-widget li a,
+.footer_wrapper p {
+  color: rgb(188,188,193);
+  font-size: 1rem;
+  position: relative;
+  padding: 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer_wrapper .link-widget li a::before {
+  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.footer_wrapper .hr {
+  width: 90%;
+  color: rgb(188,188,193);
+}
+
+.footer_wrapper .link-widget li a:hover {
+  margin-left: .625rem;
+  color: white;
+}
+
+.footer_wrapper .social-network a {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: .5rem;
+  line-height: 2.1rem;
+  font-size: 1.1rem;
+  display: inline-block;
+  border: .125rem solid rgb(188,188,193);
+  color: rgb(188,188,193);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+
+.footer_wrapper .form-control {
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer_wrapper .form-control::placeholder {
+  color:gray;
+  }
+
+
+.footer_wrapper .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(53,53,53);
+  border-color: rgb(53,53,53);
+}
+
+.footer_wrapper .copyright-section {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.footer_wrapper .copyright-section p {
+  padding: 3rem 0;
+  line-height: 0;
+}
+
+.footer_wrapper .copyright-section a {
+  color: white;
+  font-weight: 200;
+}
