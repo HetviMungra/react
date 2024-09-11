@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+ 
+  margin: 0;
+}
+
+
+
+h2 {
+
+  text-align: center;
+  margin-top: 0px;
+  font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+
+.main-box{
+  background-color: white;
+  margin: 100px;
+  height: 105vh;
+  width: 500px;
+  padding: 40px 70px;
+  background:5px solid linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+label {
+  display: block;
+  margin-bottom: 15px;
+  /* padding: 3px; */
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="number"]{
+  width: 100%;
+
+  padding: 9px 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  /* border-radius: 4px; */
+}
+input::placeholder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+button {
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+ background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+
+}
+
