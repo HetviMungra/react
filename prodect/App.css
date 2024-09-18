@@ -1,0 +1,268 @@
+* {
+    margin-top: 10px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+
+main {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    height: 670px;
+    width: 20%;
+    /* border: 1px solid black; */
+
+}
+
+.right {
+    height: 670px;
+    width: 78%;
+    /* border: 1px solid rgb(61, 37, 181); */
+    overflow: scroll;
+
+}
+
+.right::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.left .text {
+    /* border: 1px solid; */
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(17, 17, 17);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.left .list {
+    /* border: 1px solid red; */
+    padding: 18px 5px;
+    margin: 20px 0px;
+    height: 500px;
+
+}
+
+.list button {
+    padding: 0px 18px;
+    margin: 10px 0px;
+    height: 50px;
+    width: 100%;
+    font-size: 19px;
+    text-align: left;
+    background-color: rgb(132, 127, 236);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    /* background-color: white; */
+}
+.list button:hover{
+    background-color: blue;
+}
+
+.product {
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.product img {
+    /* border: 5px solid rgb(37, 181, 47); */
+    height: auto;
+    width: 30%;
+    padding: 10px;
+    object-fit: contain;
+    overflow-x: auto;
+}
+
+#pr-mobile {
+    height: auto;
+    width: 900px;
+    /* border: 1px double goldenrod; */
+}
+
+#pr-mobile li {
+    height: auto;
+    width: 100%;
+    margin-left: -20px;
+    border-bottom: 1px solid;
+    list-style: none;
+}
+
+#pr-mobile li h2 {
+    font-size: 20px;
+    color: rgb(32, 173, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pr-mobile li h4 {
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 600;
+}
+
+#pr-mobile li p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.product .btn-mobile {
+    height: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+
+
+}
+
+.product .btn-mobile button {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+#add {
+    margin-top: 50px;
+    background-color: rgb(255, 159, 0);
+}
+
+#buy {
+    background-color: rgb(251, 100, 27);
+}
+
+
+.offcanvas-cart,
+.offcanvas-buy {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.open-cart-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#closeicon {
+    height: 40px;
+    width: 50px;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#cartname {
+    font-size: 25px;
+}
+
+.cart_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cart-pro {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid pink; */
+    margin: 10px 0px;
+    display: flex;
+}
+
+.cart-pro img {
+    height: 100%;
+}
+
+.cart-pro .cart_text {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.cart_text button {
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.buy_pro {
+    height: 150px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.buyimg img {
+    height: 100%;
+}
+
+.buy_pro .buy_text {
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    /* padding: 3px; */
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+input::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#submitbuy {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(251, 100, 27);
+    color: white;
+    font-weight: 600;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
