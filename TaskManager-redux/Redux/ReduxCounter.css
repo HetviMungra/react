@@ -1,0 +1,88 @@
+/* Redux/ReduxCounter.css */
+.task-container {
+    padding: 40px;
+    background-color: #ba97f39a;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 3% 20%;
+    padding: 3% 8%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+#ti,label{
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.task-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.main{
+    /* border: 1px solid black; */
+
+    
+    display: flex;
+
+    flex-direction: row;
+    
+
+}
+.task-card {
+
+    height: 300px;
+
+    width: 280px;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+   background-color:rgba(0, 128, 0, 0.603); 
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #afcded;
+}
+.check{
+    display: flex;
+    /* border: 1px solid firebrick; */
+}
+span{
+
+    color: #a02020;
+    /* border: 1px solid green; */
+    margin-top: 8px;
+
+}
+#vehicle1{
+    width: 5%;
+}
