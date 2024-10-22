@@ -103,3 +103,5 @@ export default function ApiwithAxios() {
     </div>
   );
 }
+// i json-server
+// npx json-server --watch dba.json --port 5000    json server and dba.json is file name
