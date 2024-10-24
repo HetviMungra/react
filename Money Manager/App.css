@@ -1,0 +1,14 @@
+.m{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+.body{
+  /* color: white; */
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('https://media.licdn.com/dms/image/D4D12AQH-ToAlwbCj8w/article-cover_image- shrink_600_2000/0/1695642409070?e=2147483647&v=beta&t=VZUy47wDulequ3FQK8CdX3laju155799fV20CuJZ4Z4'); 
+
+
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://i.pinimg.com/originals/be/76/6b/be766b5c02b6cc5e1f5b1e0a43d350bb.gif'); 
+}
