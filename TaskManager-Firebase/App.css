@@ -1,0 +1,498 @@
+/* Container Styling */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    animation: backgroundAnimation 10s ease-in-out infinite;
+  }
+  
+  /* Box Styling */
+  .signin-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  /* Title Styling */
+  .signin-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Styling */
+  .signin-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    transition: transform 0.3s;
+  }
+  
+  .signin-input:focus {
+    transform: scale(1.05);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .signin-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #74b9ff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .signin-button:hover {
+    background: #0984e3;
+    transform: translateY(-3px);
+  }
+  
+  /* Link Styling */
+  .signup-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .signup-link a {
+    color: #0984e3;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    }
+    50% {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+    100% {
+      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    }
+  }
+  
+  /* Container Styling */
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    animation: backgroundAnimation 10s ease-in-out infinite;
+  }
+  
+  /* Box Styling */
+  .signup-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    animation: slideIn 1.5s ease;
+  }
+  
+  /* Title Styling */
+  .signup-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Styling */
+  .signup-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    transition: transform 0.3s;
+  }
+  
+  .signup-input:focus {
+    transform: scale(1.05);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #74b9ff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .signup-button:hover {
+    background: #0984e3;
+    transform: translateY(-3px);
+  }
+  
+  /* Link Styling */
+  .signin-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .signin-link a {
+    color: #0984e3;
+    text-decoration: none;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+    50% {
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+    100% {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+  }
+  
+  /* Background Styling */
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    animation: backgroundAnimation 15s ease-in-out infinite;
+  }
+  
+  /* Card Styling */
+  .dashboard-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  /* Text Styling */
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+    50% {
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+    100% {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .dashboard-card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+  
+
+
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Page Background */
+.dsbody {
+  background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+/* Header and Sign In Button */
+.head_name {
+  text-align: center;
+  padding: 20px;
+}
+
+.head_name h1 {
+  font-size: 2rem;
+  color: #f0f0f0;
+}
+
+.fixed_btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.fixed_btn button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fixed_btn button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Form Section */
+.form_div {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form_div form h3 {
+  color: #ecf0f1;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ecf0f1;
+  color: #333;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Task Manager Section */
+.task_manager {
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  
+}
+
+.task_div {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  align-items: center;
+  margin: 20px;
+  padding: 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  width:450px;
+
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.task_div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.left_div h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.right_div {
+  text-align: right;
+}
+
+.right_div h1 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 5px;
+}
+.right_div h4{
+  color: #ffffff; 
+  text-decoration: underline;
+  padding: 2px;
+}
+.right_div h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right_div span {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Record Buttons */
+.record_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.edit_btn {
+ background-color: #2980b9;
+  font-weight: 600;
+  color: white;
+  
+}
+
+.delete_btn {
+  background-color: #e74c3c;
+  border: 1px solid red;
+  color: #fff;
+}
+
+.comp_btn {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.edit_btn:hover {
+  border: 3px solid;
+  background-color: white;
+  color:  #3498db;
+}
+
+.delete_btn:hover {
+  border: 3px solid  #c0392b;
+  color:  #c0392b;
+  background-color: white;
+}
+
+.comp_btn:hover {
+  border: 3px solid#2ecc71;
+color: #2ecc71;
+  background-color: white ;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
+
+.task_div {
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: rgb(240, 56, 56);
+}
