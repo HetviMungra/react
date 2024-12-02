@@ -1,0 +1,99 @@
+/* General cart styles */
+.cart {
+  padding: 20px;
+  margin-top: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  position: relative;
+  /* margin-top: -100px; */
+  /* border: 1px solid #ddd; */
+}
+
+.cart-item div {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  color: #444;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 210px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.cart-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.pluse {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px 100px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pluse:hover {
+  background-color: #218838;
+}
+
+.Removeb {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Removeb:hover {
+  background-color: #c82333;
+}
+
+/* Total price section */
+.cart h3 {
+  font-size: 20px;
+  text-align: right;
+  color: #000;
+}
+
+.cart p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
