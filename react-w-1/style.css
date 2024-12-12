@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* navbar styling */
+header{
+    /* position: fixed; */
+    border: 1px solid black;
+
+}
+.navbar{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgb(12,60,96);
+}
+
+/* logo style  */
+.logo h1{
+    /* width: rem; */
+    height: 4rem;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    margin-left:1rem;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.hamburger-menu{
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+.hamburger-menu .line{
+   display: block;
+   width:2.5rem;
+   height: 2px;
+   margin-bottom: 10px;
+   background-color: black;
+   cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 94%;
+    top: 6rem;
+    left: 18px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
+.nav-menu a{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-menu a:hover{
+text-decoration: underline;
+color: aqua;
+
+}
+
+.hide{
+    display: none;
+}
+
+/* for Desktop view  */
+@media screen and (min-width:576px){
+    .navbar{
+        justify-content: space-around;
+    }
+    .nav-menu{
+        display: block;
+        position: static;
+        width: auto;
+        margin-right:20px;
+        background: none;
+    }
+    .nav-menu a{
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    .nav-menu a:hover{
+        color: aqua;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+.hero{
+    height: 750px;
+    width: 100%;
+    border: 1px solid;
+    position: relative;
+
+}
+.hero img{
+    height: 100%;
+    width: 100%;
+} 
+.devlop{
+    height: 290px;
+    width: 850px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    position: absolute;
+    margin-top: -292px;
+    margin-left: 290px;
+    display: block;
+
+   
+
+    
+}
+.devlop h3{
+    padding: 20px 160px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
+}
+.devlop h1{
+    padding: 20px 80px;
+
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+.devlop button{
+    margin: 20px 80px;
+border: 1px solid rgb(7,33,54);
+height: 50px;
+width: 200px;
+color:rgb(7,33,54) ;
+font-weight: 600;
+background-color: transparent;
+margin-left: 330px
+
+}
+.part{
+    width: 90%;
+    height: 30rem;   
+    /* border: 3px double black; */
+    margin: 20PX;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.service{
+    width: 30%;
+    height: 25rem;
+    /* border: 3px double black; */
+
+}
+.service h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+.service p{
+    width: 80%;
+    font-size: 0.90rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px;
+    font-family: "RobotoLight", sans-serif;
+
+}
+.service button{
+    height: 3rem;
+    width:10rem;
+    padding: 2px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid rgb(12,59,95);
+    font-weight: bold;
+    color: rgb(12,59,95);
+}
+
+main{
+    height: 500px;
+    width: 100%;
+    border: 2px double palevioletred;
+}
+main {
+    /* height: 100%;
+    width: 100%; */
+    background: fixed;
+    background:url("img1\ \(2\).jpg"), linear-gradient(rgb(208,223,232),rgb(208,223,232),rgb(208,223,232),rgb(208,223,232));
+
+}  
+menu{
+    height: 700px;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: rgb(12,60,96);
+    color: white;
+
+}
+menu h1{
+
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 0px;
+
+
+}
+form{
+    width: 80%;
+    padding: 10px;
+/* border: 1px solid palevioletred; */
+    display: flex;
+justify-content:left;
+justify-items: center;
+justify-self: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+}
+menu .first-name{
+    height: 150px;
+    width: 50%;
+    /* border: 1px solid green; */
+    padding: 10px;
+    /* margin: 1px; */
+}
+menu .first-name-message{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid rgb(36, 194, 44); */
+    padding: 10px;
+
+}
+
+form input{
+    height: 20px;
+    width: 90%;
+    margin: 50px 0px ;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+form textarea{
+    height: 60px;
+    width: 100%;
+    padding: 10px 0px;
+    margin:20px 0px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+form label{
+    font-size: 20px;
+    /* text-align: right; */
+    padding: 30px;
+    margin: 90px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    border: 5px solid palevioletred;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(7,33,54);
+    display: flex;
+}
+footer .f-1{
+    height: 150px;
+    width: 20%;
+    
+    margin-top: 20px;
+    padding: 10px;
+    /* border: 1px solid green; */
+}
+footer.f-1 h4{
+  font-size: 20px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+footer .f-1 p{
+    font-size: 15px;
+}
+footer .f-2 h4{
+    font-size: 20px;
+padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+footer ul li{
+padding: 5px;
+list-style: none;
+    
+}
+.f-3 p {
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+@media screen and (min-width:576px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .devlop{
+        display: none;
+    }
+    .hero{
+        height: 550px;
+
+    }
+    .service p{
+        height: 210px;
+        overflow: hidden;
+    }
+}
